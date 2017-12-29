@@ -1,2 +1,3 @@
 # Kernel-Bot
-Kernel Bot
+This is a bot to manage my server
+https://discord.gg/nfkfU4H
