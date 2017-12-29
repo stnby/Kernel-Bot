@@ -4,5 +4,10 @@
 	"defaultrolename": "/home",
 	"modrolename": "botmod",
 	"adminrolename": "botadmin",
-	"logchannelname": "log"
+	"logchannelname": "log",
+
+	"adurl": ["discord.gg/", "discord.li/", "discord.io/", "discord.me/", "disco.gg/"],
+	"iploggerurl": ["grabify.link/", "bmwforum.co/", "leancoding.co/", "quickmessage.io/", "spottyfly.com/", "spötify.com/", "stopify.co/", "yoütu.be/", "yoütübe.co/", "yoütübe.com/", "xda-developers.io/", "starbucksiswrong.com/", "starbucks.bio/", "starbucksisbadforyou.com/", "bucks.as/", "discörd.com/", "minecräft.com/", "shört.co/", "cyberh1.xyz/", "iplogger.com/", "iplogger.org/", "iplogger.ru/", "2no.co/", "yip.su/", "blasze.tk/", "yòutube.com/"],
+	"blacklistedurl": ["nigga.com", "lmao.lt"],
+	"bannedwords": ["nigga", "niga", "nigger", "faggot", "fuck", "bitch", "die"]
 }
