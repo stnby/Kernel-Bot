@@ -1,7 +1,7 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
 const settings = require("./settings.json");
-const token = require("./token.json");
+const token = require("../token.json");
 
 const fs = require("fs");
 require("./util/eventLoader")(client);
