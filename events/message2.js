@@ -6,7 +6,7 @@ module.exports = message => {
 	const client = message.client;
 	if (message.channel.type === "dm") return;
 	if (message.author.bot) return;
-	if (message.author.id!==settings.ownerid) return;
+	if (message.author.id === settings.ownerid) return;
 
 	let msg = message.content.toLowerCase();
 
