@@ -6,9 +6,9 @@ module.exports = message => {
 	const client = message.client
 	if (message.author.bot) return;
 	if (!message.content.startsWith(settings.prefix)) return;
-	//if (!message.channel.name.startsWith("bot")) {
-		setTimeout(() => message.delete(), 3000);
-    }
+	// if (!message.channel.name.startsWith("bot")) {
+		// setTimeout(() => message.delete(), 3000);
+    // }
 
 	const command = message.content.split(" ")[0].slice(settings.prefix.length);
 	const args = message.content.split(" ").slice(1);
