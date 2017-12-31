@@ -3,10 +3,10 @@
 const settings = require("../settings.json");
 
 module.exports = message => {
-	const client = message.client;
+	const client = message.client
 	if (message.author.bot) return;
 	if (!message.content.startsWith(settings.prefix)) return;
-	if (!message.channel.name.startsWith("bot")) {
+	//if (!message.channel.name.startsWith("bot")) {
 		setTimeout(() => message.delete(), 3000);
     }
 
