@@ -4,7 +4,7 @@ const Discord = require("discord.js");
 const settings = require("../settings.json");
 
 module.exports = member => {
-	const logChannel = member.guild.channels.find("name", settings.logchannelname);
+	const logChannel = member.guild.channels.find("name", settings.logChannelName);
 	const embed = new Discord.RichEmbed()
 		.setAuthor(`${member.user.tag} (${member.user.id})`, member.user.displayAvatarURL)
 		.setDescription(`:broken_heart: User Left Server :(\n\n\`\`./userdel ${member.user.username}\`\``)

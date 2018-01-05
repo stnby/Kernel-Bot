@@ -1,15 +1,20 @@
 {
   "name": "kernel",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Discord Bot",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "author": "Stnby",
   "license": "MIT",
+  "engines": {
+    "node": "9.x"
+  },
   "dependencies": {
     "discord.js": "^11.2.1",
-    "ms": "^2.1.1"
+    "ms": "^2.1.1",
+    "express": "^4.16.2",
+    "shelljs": "^0.7.8"
   }
 }

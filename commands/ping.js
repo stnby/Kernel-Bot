@@ -1,19 +1,21 @@
+// ping Command
+
 exports.run = (client, message) => {
-	message.channel.send("**Ping?**")
-		.then(msg => {
-			msg.edit(`**Pong!** (took: ${msg.createdTimestamp - message.createdTimestamp}ms)`);
-		});
+  message.channel.send("**Ping?**")
+    .then(msg => {
+      msg.edit(`**Pong!** (took: ${msg.createdTimestamp - message.createdTimestamp}ms)`);
+    });
 };
 
 exports.conf = {
-	enabled: true,
-	guildOnly: false,
-	aliases: ["delay", "lag"],
-	permLevel: 0
+  enabled: true,
+  guildOnly: false,
+  aliases: ["delay", "lag"],
+  permLevel: 0
 };
 
 exports.help = {
-	name: "ping",
-	description: "Ping/Pong command.",
-	usage: "ping"
+  name: "ping",
+  description: "Ping/Pong command.",
+  usage: "ping"
 };

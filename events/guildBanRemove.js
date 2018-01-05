@@ -1,5 +1,5 @@
-const Discord = require('discord.js');
+// guildBanRemove Event
 
 module.exports = (guild, user) => {
-
+  console.log("[Event] User UnBanned");
 };
